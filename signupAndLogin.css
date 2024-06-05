@@ -1,0 +1,80 @@
+body{
+    margin: 100px,0;
+    font-family: roboto,Arial,sans-serif;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    /*width: 100%;*/
+}
+
+h1{
+    
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+form div{   
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 25px;
+}
+
+form div.submit{   
+    margin-top: 50px;
+    width: 15%;
+}
+
+input{
+    padding: 17px 18px;
+
+    /*diciamo ai box di estendersi al massimo della loro portata, in questo modo assumono ugual lunghezza,
+    poi limitiamo i container in cui sono contenuti, limitando così la loro portata*/
+    width: 100%;    
+
+    border: 1px solid #eae9e9;
+    border-radius: 5px;
+
+}
+
+span.input_name{
+    margin-bottom: 8px;
+}
+
+input[type=submit]{
+    font-size: 22px;
+    display: block;
+    background-color: #ff0d4a;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 50px;
+    font-weight: 400;
+
+    border-width: 0;
+
+}
+
+
+span.error{
+    color: #dd0000;
+    margin-left: auto;
+    margin-top: 5px;
+}
+
+span.error_false{
+    display: none;
+}
+
+a#link_registrazione {
+
+    color: black;
+    margin-top: 20px; /* Adjust this value to your preference */
+}
